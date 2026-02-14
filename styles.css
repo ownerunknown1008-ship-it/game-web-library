@@ -1,53 +1,6 @@
-/* 
-   Game Library Styles
-   ==================
-   This CSS file contains styles for the game library. 
-*/
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background: #007bff;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-h1 {
-    margin: 20px 0;
-}
-
-.game {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    background: #fff;
-    transition: transform 0.2s;
-}
-
-.game:hover {
-    transform: scale(1.05);
-}
-
-footer {
-    text-align: center;
-    padding: 15px 0;
-    background: #007bff;
+    background-color: black;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
+
+/* Additional dark theme styles */
