@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Web Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>🎮 Game Web Library</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search games...">
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <label><input type="checkbox" class="genre-filter" value="action"> Action</label>
+                <label><input type="checkbox" class="genre-filter" value="puzzle"> Puzzle</label>
+                <label><input type="checkbox" class="genre-filter" value="adventure"> Adventure</label>
+                <label><input type="checkbox" class="genre-filter" value="sports"> Sports</label>
+                <label><input type="checkbox" class="genre-filter" value="strategy"> Strategy</label>
+            </div>
+            <button id="clearFilters">Clear Filters</button>
+        </aside>
+
+        <section class="games-container" id="gamesContainer">
+            <div class="loading">Loading games...</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Game Web Library. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
